@@ -32,16 +32,16 @@ The system integrates an SHT41 sensor with an ESP32 microcontroller, Firebase Re
 ## Application Screenshots
 
 ### Dashboard
-![Dashboard](assets/screenshots/dashboard.jpeg)
+![Dashboard](assets/screenshots/Halaman Dashboard (2).jpeg)
 
 ### Monitoring History
 ![Monitoring History](assets/screenshots/monitoring-history.jpeg)
 
 ### Inventory
-![Inventory](assets/screenshots/inventory.jpeg)
+![Inventory](assets/screenshots/inventory2.jpeg)
 
 ### Storage
-![Storage](assets/screenshots/storage.jpeg)
+![Storage](assets/screenshots/penyimpanan 1.jpeg)
 
 ### QR Code Scanner
 ![QR Scanner](assets/screenshots/qr-scanner.jpeg)

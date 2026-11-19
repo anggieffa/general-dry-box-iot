@@ -34,7 +34,7 @@ The system integrates an SHT41 sensor with an ESP32 microcontroller, Firebase Re
 ### Dashboard
 ![Dashboard](assets/screenshots/HalamanDashboard(2).jpeg)
 
-### Monitoring History
+### Storage
 ![Monitoring History](assets/screenshots/penyimpanan1.jpeg)
 
 ### Inventory
@@ -51,7 +51,7 @@ The system integrates an SHT41 sensor with an ESP32 microcontroller, Firebase Re
 ### Transaction
 ![Transaction Information](assets/screenshots/informasitransaksi1.jpeg)
 
-![Transaction Form](assets/screenshots/transaksisukses2.jpeg)
+![Transaction Sucsess](assets/screenshots/transaksisukses2.jpeg)
 
 
 ## System Architecture
@@ -62,11 +62,15 @@ Google Sheets is integrated for historical monitoring data recording.
 
 ## Repository Structure
 
-- `assets/
-- `screnshoots` — Application screenshots.
-- `source-code/flutter/` — Flutter application source code.
-- `Block Diagram Dry Box.
-- `Flowchart Aplication.
+-general-dry-box-iot/
+├── assets/
+│   └── screenshots/
+├── source-code/
+│   └── flutter/
+│       ├── lib/
+│       ├── pubspec.yaml
+│       └── README.md
+└── README.md
 
 ## Project Information
 

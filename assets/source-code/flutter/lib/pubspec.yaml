@@ -1,0 +1,71 @@
+name: ta_general_dry_box
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.4.7
+  shared_preferences: ^2.5.4
+
+  # Firebase
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.0
+  cloud_firestore: ^4.15.0
+  firebase_database: ^10.5.7
+  
+  # Google Sheets Integration
+  gsheets: ^0.5.0
+  csv: ^6.0.0
+  path_provider: ^2.1.2
+  http: ^1.6.0
+  fl_chart: ^1.1.1
+  path_provider_android: ^2.2.22
+  dio: ^5.9.0
+  
+  flutter_ringtone_player: ^4.0.0+4
+  
+  #mobile scanner
+  mobile_scanner: ^7.2.0
+
+  image_picker: ^1.2.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/sounds/notifikasiSimcoin.mp3
+    - assets/sounds/sukses1.mp3
+    - assets/sounds/sukses2.mp3
+
+  fonts:
+    - family: poppins
+      fonts:
+        - asset: assets/fonts/poppins.bold.ttf
+        - asset: assets/fonts/poppins.italic.ttf
+        - asset: assets/fonts/poppins.medium.ttf
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/images/icon_simcoin_box.png
+
+flutter_native_splash:
+  color: "#0D47A1"
+  android: true
+  ios: true

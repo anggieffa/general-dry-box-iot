@@ -62,9 +62,11 @@ Google Sheets is integrated for historical monitoring data recording.
 
 ## Repository Structure
 
-- `assets/` — Application screenshots and visual assets.
-- `documentation/` — Project documentation and system diagrams.
+- `assets/
+- `screnshoots` — Application screenshots.
 - `source-code/flutter/` — Flutter application source code.
+- `Block Diagram Dry Box.
+- `Flowchart Aplication.
 
 ## Project Information
 
